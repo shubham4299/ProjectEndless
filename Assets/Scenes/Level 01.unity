@@ -434,6 +434,7 @@ MonoBehaviour:
   _loopSegmentLogic: 0
   _levelCollection:
   - {fileID: 11400000, guid: 4653cac40af10234eaf1dfa4f4ac34f5, type: 2}
+  - {fileID: 11400000, guid: 72aa9998cf4f1f546a271cbe8bdec4b6, type: 2}
   _levelIteration: 2
   _levelRandomizer: {fileID: 0}
   _generationRandomizer: {fileID: 11400000, guid: fb600be43607d7e47822c78754644d57, type: 2}
@@ -515,7 +516,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_SizeDelta: {x: 300, y: 200}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1110535061
 MonoBehaviour:
@@ -537,7 +538,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 0
+  m_text: 999
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
   m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}

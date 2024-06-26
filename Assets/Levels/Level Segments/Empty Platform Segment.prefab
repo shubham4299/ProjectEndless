@@ -147,6 +147,7 @@ MonoBehaviour:
     extrudedCollisionMesh: {fileID: 0}
     _extrusionSettings:
       meshColliderHandling: 0
+      bendSpline: 0
       boundsInclusion: -1
       indexing: 0
       applyRotation: 1
@@ -162,6 +163,8 @@ MonoBehaviour:
     meshFilter: {fileID: 7119733768474615994}
     meshCollider: {fileID: 0}
     spriteRenderer: {fileID: 0}
+    splineComputer: {fileID: 0}
+    editSplinePoints: []
     colliders: []
     _isRoot: 1
   bounds:
@@ -171,7 +174,7 @@ MonoBehaviour:
     min: {x: -6.225244, y: -0.27831015, z: -12.140002}
     size: {x: 12.450488, y: 0.9897189, z: 24.280006}
   builders: []
-  unpacked: 0
+  unpacked: 1
   alwaysDraw: 0
   drawGeneratedSpline: 1
   drawGeneratedSamples: 1
@@ -179,4 +182,4 @@ MonoBehaviour:
   drawEntranceAndExit: 1
   drawBounds: 1
   drawCustomPaths: 1
-  editorChildCount: 1
+  editorChildCount: 0

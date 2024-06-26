@@ -32,6 +32,9 @@ public class Leaderboard : MonoBehaviour
     public void AddScoreCard(ScoreCard _scoreCard)
     {
         _ScoreCardEntries.Add(_scoreCard);
+
+        GameObject obj = Instantiate(EntryPrefab, ScoreCardsContainer);
+        
     }
 
     public void AddScoreCard(string _name,  int _score)

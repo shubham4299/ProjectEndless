@@ -15,6 +15,8 @@ public class ScoreManager : MonoBehaviour
     {
         if (instance == null)
             instance = this;
+
+        UpdateScoreText(0);
     }
 
     public void AddScore(int score)

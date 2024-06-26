@@ -35,7 +35,7 @@ public class PlayerController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.A)) runner.lane--;
         if (Input.GetKeyDown(KeyCode.D)) runner.lane++;
 
-        if (Input.GetKeyDown(KeyCode.Space)) Leaderboard.instance.SaveScoresToJSON();
+        if (Input.GetKeyDown(KeyCode.Space)) LevelGenerator.instance.Restart();       //Leaderboard.instance.SaveScoresToJSON();
     }
 
     private IEnumerator Countdown()
